@@ -62,25 +62,38 @@ for (let i = arrq7.length - 1; i >= 0; i--) {
 }
 console.log(reversedArr);
 
-
-//Qs8 
-var numqs8 = 1
-while (numqs8<101) {
-   numqs8++;
-   if(numqs8%5 ==0 ){
-      console.log(numqs8)
-   }
+//Qs8
+var numqs8 = 1;
+while (numqs8 < 101) {
+  numqs8++;
+  if (numqs8 % 5 == 0) {
+    console.log(numqs8);
+  }
 }
 
 //Qs9
 
-var obj ={
-
-name:"saroj",
-age:20,
-job:"developer",
-}
-
+var obj = {
+  name: "saroj",
+  age: 20,
+  job: "developer",
+};
+// To get the key values
 for (var key in obj) {
   console.log(key);
 }
+
+//qs10
+var qs10 = ["Extraction", "Jay Hanuman", "Sector 36", "Sultan"];
+
+qs10.forEach(function(value){
+  console.log(value)
+})
+//Qs11
+var qs11 = ["Extraction", "Jay Hanuman", "Sector 36", "Sultan"];
+console.log(qs11[1])
+
+//Qs12
+let qs12 = [12,45,2,45,64]
+qs12.unshift(92 , 56)
+console.log(qs12)
